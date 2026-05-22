@@ -76,16 +76,6 @@ sk_xxxxxxxxx
 
 不要在插件中填写上游 Key。上游 Key 只放在 `ApiCreditGateway/.env`。
 
-## 扣费
-
-扣费由服务器控制，当前规则是：
-
-```text
-买家扣除积分 = 上游成本 x SELLING_MULTIPLIER
-```
-
-默认倍率是 `1.6`。
-
 ## 当前模型
 
 图像生成模型：
