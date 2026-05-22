@@ -1,6 +1,6 @@
 ﻿# Comfyui-Jojoagent-ai
 
-Jojoagent 的 ComfyUI 客户端插件。插件通过你的 `ApiCreditGateway` 额度服务器调用上游模型接口，买家只需要填写你发放的 Jojoagent API 口令，不接触上游 Key。
+Jojoagent 的 ComfyUI 客户端插件。买家只需要填写你发放的 Jojoagent API 口令，即可在 ComfyUI 中使用提示词、识图和图像生成相关节点。
 
 本版按 SynVow 类插件的工作流重新设计，但没有复制其代码、提示词或节点命名；同类功能被合并成更少但更可操作的节点，参数选项尽量使用中文。
 
@@ -73,8 +73,6 @@ http://124.221.138.114:8001
 ```text
 sk_xxxxxxxxx
 ```
-
-不要在插件中填写上游 Key。上游 Key 只放在 `ApiCreditGateway/.env`。
 
 ## 当前模型
 
